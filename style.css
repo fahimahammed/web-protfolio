@@ -1,0 +1,99 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+}
+h1{
+    font-size: 40px;
+}
+h2{
+    font-size: 35px;
+}
+h3{
+    color: darkslategray;
+}
+p{
+    color: dimgrey;
+    
+}
+.name-style{
+    color: orange;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 100%;
+}
+.btn{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, rgb(236, 214, 8), rgba(250, 97, 8, 0.925) );
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+.head-container{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+.dream-area{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.exp-box{
+    box-shadow: 10px 10px 40px gray;
+    height: 80%;
+    border-radius: 5px;
+    background-color:none;
+    padding-left: 10px;
+}
+#full-stuck{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightSalmon, tomato);
+    border-image-slice: 1;
+    padding-left: 2%;
+}
+#baby-dev{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, lightBlue);
+    border-image-slice: 1;
+    padding-left: 2%;
+}
+.exp-area{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.exp-box h3{
+    color:darkorange;
+}
+.exp-box h1{
+    font-size: 30px;
+}
+#cse-edu{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightSalmon, orange);
+    border-image-slice: 1;
+    padding-left: 2%;
+}
+#hsc-edu{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightBlue, darkslategray);
+    border-image-slice: 1;
+    padding-left: 2%;
+}
+footer{
+    text-align: center;
+    color: rgb(3, 3, 20);
+    font-weight: 600;
+    
+    
+}
